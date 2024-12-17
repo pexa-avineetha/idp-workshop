@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: yournamehere-service
+  name: avineetha-service
   description: |
-    My Example service which has something to do with APIs and database.
+    This is a description
   links:
     - title: Website
       url: http://harness.io
@@ -37,16 +37,16 @@ metadata:
     #jira/project-key: IDP
     ## Jira plugin - End
   tags:
-    - yournamehere
+    - avineetha
 spec:
   type: service
-  owner: change-value
+  owner: pexa
   lifecycle: experimental
   consumesApis:
     - spotify
   providesApis:
     - petstore
-#  system: yournamehere-system
+#  system: avineetha-system
 #  dependsOn:
-#    - component:default/yournamehere-service
+#    - component:default/avineetha-service
 
