@@ -48,4 +48,4 @@ spec:
     - petstore
   dependsOn:
     - component:default/avineetha-service
-  system: avineetha-system
+#  system: avineetha-system
