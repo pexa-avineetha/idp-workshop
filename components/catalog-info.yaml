@@ -46,7 +46,7 @@ spec:
     - spotify
   providesApis:
     - petstore
-#  system: avineetha-system
-#  dependsOn:
-#    - component:default/avineetha-service
+  system: avineetha-system
+  dependsOn:
+    - component:default/avineetha-service
 
